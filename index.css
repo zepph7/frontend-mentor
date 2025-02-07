@@ -1,0 +1,101 @@
+:root{
+---White: hsl(0, 0%, 100%);
+---Stone-100: hsl(30, 54%, 90%);
+---Stone-150: hsl(30, 18%, 87%);
+---Stone-600: hsl(30, 10%, 34%);
+---Stone-900: hsl(24, 5%, 18%);
+
+---Brown-800: hsl(14, 45%, 36%);
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+}
+body{
+    /* background-color: rgb(255, 213, 189); */
+    background-color: var(---Stone-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family:"Outfit",serif;
+}
+
+.container{
+   max-width: 650px;
+   background-color: white;
+   padding: 20px;
+    margin-top:40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+} 
+
+
+img{
+    width: 100%;
+    border-radius:5px;
+
+}
+
+.first-section p{
+    font-size: 16px;
+    font-family: "Outfit", serif;
+}
+h1,h3,h4{
+   font-family:"Young Serif",serif;
+}
+.preparatio-time{
+    /* background-color: rgb(243, 197, 197,0.3); */
+    background-color: var(--Rose-50);
+    border-radius: 5px;
+}
+.prep-contents{
+    margin-left: 30px;
+    padding: 2px;
+    
+}
+.prep-contents h4{
+    color: var(--Rose-800);
+    font-weight:bold;
+}
+.prep-contents span{
+    font-weight: bold;
+}
+.preparatio-time ul li{
+    margin-top: 10px;
+}
+.ingrediates ul li{
+    margin-top: 10px;
+}
+ h3,h2{
+    color: var(---Brown-800);
+}
+ p ,ul,ol{
+    color: var(---Stone-600);
+ }
+ ol li{
+    margin-top: 8px;
+ }
+.table-nutrients{
+    color: var(---Stone-600);
+}
+ .first-col{
+    margin-right: 300px;
+
+ }
+  .first-col1{
+    margin-right: 315px;
+
+ }
+  .first-col2{
+    margin-right: 305px;
+
+ }
+  .first-col3{
+    margin-right: 330px;
+
+ }
+
+.sec-col{
+    color: var(---Brown-800);
+    font-weight: bold;
+}
